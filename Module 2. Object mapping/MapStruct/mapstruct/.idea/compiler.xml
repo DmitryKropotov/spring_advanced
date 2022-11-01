@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for mapstruct" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$M2_REPO$/org/mapstruct/mapstruct-processor/1.4.0.Beta1/mapstruct-processor-1.4.0.Beta1.jar" />
+          <entry name="$M2_REPO$/org/mapstruct/mapstruct/1.4.0.Beta1/mapstruct-1.4.0.Beta1.jar" />
+        </processorPath>
+        <module name="mapstruct" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mapstruct" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

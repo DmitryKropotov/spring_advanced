@@ -1,0 +1,11 @@
+GET http://localhost:8081
+
+###
+
+POST http://localhost:8081/create
+Content-type:application/json
+
+{"id":"2", "name":"John Smith", "coveredDistance":"4000"}
+
+
+

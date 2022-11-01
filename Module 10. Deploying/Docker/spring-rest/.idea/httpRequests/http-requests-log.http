@@ -1,0 +1,318 @@
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 11:08:08 GMT
+
+<> 2021-09-09T140907.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 11:08:08 GMT
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140808.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140807-1.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140807.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140805.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140803.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140800.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140757.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140752.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+<> 2021-09-09T140747.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140713.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140710.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140707.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140704.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140702.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140700.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140623.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140620.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140613.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140611.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140609.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140606.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140534.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140532.200.json
+
+###
+
+GET http://localhost/app1/counter/cached
+
+<> 2021-09-09T140529.200.json
+
+###
+
+GET http://localhost:8081/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 09:16:59 GMT
+
+<> 2021-09-09T121812.200.json
+
+###
+
+GET http://localhost:8081/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 09:16:59 GMT
+
+<> 2021-09-09T121756.200.json
+
+###
+
+GET http://localhost:8081/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 09:16:59 GMT
+
+<> 2021-09-09T121752.200.json
+
+###
+
+GET http://localhost:8081/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 00:48:15 GMT
+
+<> 2021-09-09T121700.200.json
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T121522.200.json
+
+###
+
+GET http://localhost:8081/counter/notcached
+
+<> 2021-09-09T121503.200.txt
+
+###
+
+GET http://localhost:8081/counter/notcached
+
+<> 2021-09-09T121454.200.txt
+
+###
+
+GET http://localhost:8081/counter/notcached
+
+<> 2021-09-09T121445.200.txt
+
+###
+
+GET http://localhost:8081/counter/notcached
+
+<> 2021-09-09T121431.200.txt
+
+###
+
+GET http://localhost:8081/counter/notcached
+
+<> 2021-09-09T121219.200.txt
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T120450.200.json
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T120410.200.json
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T120409.200.json
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T120408.200.json
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T120406.200.json
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T120358.200.json
+
+###
+
+GET http://localhost:8081/counter/cached
+
+<> 2021-09-09T120354.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:10:07 GMT
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 01:09:39 GMT
+
+<> 2021-09-09T041007.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 00:52:33 GMT
+
+<> 2021-09-09T040959.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 00:52:33 GMT
+
+<> 2021-09-09T040939.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 00:52:33 GMT
+
+<> 2021-09-09T040937.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 00:52:33 GMT
+
+<> 2021-09-09T040934.200.json
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 00:52:33 GMT
+
+<> 2021-09-09T040933.200.json
+
+###
+

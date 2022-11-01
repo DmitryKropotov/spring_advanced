@@ -1,0 +1,32 @@
+version: '3.7'
+services:
+  nginx_server:
+    image: nginx
+    ports:
+      - '8000:8000'
+    networks:
+      - demo-network
+    depends_on:
+      - spring-rest1
+      - spring-rest2
+    volumes:
+      - ./conf:/etc/nginx/nginx.conf
+
+  spring-rest1:
+    image: spring-rest
+    ports:
+      - '8087:8081'
+    networks:
+      - demo-network
+    command: first
+  spring-rest2:
+    image: spring-rest
+    ports:
+      - '8088:8081'
+    networks:
+      - demo-network
+    command: second
+networks:
+  demo-network:
+
+

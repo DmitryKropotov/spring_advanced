@@ -1,0 +1,39 @@
+
+
+GET http://localhost:8081/counter/cached
+
+###
+
+GET http://localhost:8081/counter/notcached
+
+###
+
+GET http://localhost/app1/counter/notcached
+
+###
+
+GET http://localhost:8081/counter/cached
+
+###
+
+GET http://localhost/app1/counter/cached
+
+###
+
+GET http://localhost:8081/counter/cached3
+
+###
+
+GET http://localhost/app1/counter/cached3
+
+###
+
+GET http://localhost:8081/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 09:16:59 GMT
+
+###
+
+GET http://localhost/app1/counter/cached4
+If-Modified-Since: Thu, 09 Sep 2021 11:08:08 GMT
+
+
